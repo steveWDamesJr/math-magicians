@@ -11,5 +11,6 @@
     }],
     "block-no-empty": null
   },
+  "custom-property-no-missing-var-function": [true, { "ignoreProperties": ["transition", "transition-property"] }],
   "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css", "**/*.js", "**/*.jsx"]
 }
