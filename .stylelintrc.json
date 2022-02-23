@@ -1,11 +1,6 @@
 {
   "extends": "stylelint-config-recommended",
   "rules": {
-    "unit-no-unknown": [ true, {
-        "ignore": [
-          "custom-elements"
-        ]
-      }],
     "at-rule-no-unknown": [ true, {
       "ignoreAtRules": [
         "extends",
@@ -14,7 +9,6 @@
         "layer"
       ]
     }],
-    "block-no-empty": null
-  },
-  "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css", "**/*.js", "**/*.jsx"]
+  "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css", "**/*.js", "**/*.jsx", "**/*.css"]
+ }
 }
