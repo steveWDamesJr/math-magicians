@@ -8,7 +8,7 @@
         "apply",
         "layer"
       ]
-    }],
-  "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css", "**/*.js", "**/*.jsx", "**/*.css"]
- }
+    }]
+ },
+ "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css", "**/*.js", "**/*.jsx"]
 }
