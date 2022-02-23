@@ -52,7 +52,9 @@
     "eslint-config-react": "^1.1.7",
     "eslint-plugin-react": "^7.28.0",
     "postcss-preset-env": "^7.4.1",
+    "stylelint": "^14.5.3",
     "stylelint-config-recommended": "^7.0.0",
-    "stylelint-csstree-validator": "^2.0.0"
+    "stylelint-csstree-validator": "^2.0.0",
+    "stylelint-react-native": "^2.4.0"
   }
 }
