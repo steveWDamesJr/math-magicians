@@ -1,12 +1,16 @@
 import React from 'react';
+import Calculator from './components/Calculator';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <h1 className="text-xl leading-6 font-bold text-gray-900">Calculator APP</h1>
-    </div>
-  );
+// eslint-disable-next-line react/prefer-stateless-function
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <Calculator />
+      </div>
+    );
+  }
 }
 
 export default App;
