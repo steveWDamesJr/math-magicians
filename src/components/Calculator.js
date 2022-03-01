@@ -51,7 +51,7 @@ function Calculator() {
                 <button type="button" className="btn-orange" key="first" onClick={onClick}>+</button>
               </div>
               <div className="flex justify-between last">
-                <button type="button" className="w-64 btn-grey zero" key="seventeenth" onClick={onClick}>0</button>
+                <button type="button" className="w-64 zero" key="seventeenth" onClick={onClick}>0</button>
                 <button type="button" className="w-32 btn-grey point" key="eighteenth" onClick={onClick}>•</button>
                 <button type="button" className="w-32 btn-grey equals" key="nineteenth" onClick={onClick}>=</button>
               </div>
