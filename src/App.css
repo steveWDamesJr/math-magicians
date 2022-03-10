@@ -1,38 +1,281 @@
-.App {
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+#root {
+  padding: 20px 10px;
+}
+
+header {
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home,
+.calc,
+.quote {
+  padding: 0 15px;
+}
+
+.home {
+  border-right: 2px solid #000;
+}
+
+.calc {
+  border-right: 2px solid #000;
+}
+
+.cal-screen {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.zero {
+  width: 262px;
+  border-width: 1px;
+
+  --tw-border-opacity: 1;
+
+  border-color: rgb(148 163 184 / var(--tw-border-opacity));
+
+  --tw-bg-opacity: 1;
+
+  background-color: rgb(168 162 158 / var(--tw-bg-opacity));
+  font-weight: 500;
+
+  --tw-text-opacity: 1;
+
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -2px rgb(0 0 0 / 10%);
+  --tw-shadow-colored:
+    0 4px 6px -1px var(--tw-shadow-color),
+    0 2px 4px -2px var(--tw-shadow-color);
+
+  box-shadow:
+    var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000),
+    var(--tw-shadow);
+}
+
+.app {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* utilities */
+.flex {
   display: flex;
-  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-gray-900 {
+  --tw-text-opacity: 1;
+
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.leading-6 {
+  line-height: 1.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.shadow-xl {
+  --tw-shadow:
+    0 20px 25px -5px rgb(0 0 0 / 10%),
+    0 8px 10px -6px rgb(0 0 0 / 10%);
+  --tw-shadow-colored:
+    0 20px 25px -5px var(--tw-shadow-color),
+    0 8px 10px -6px var(--tw-shadow-color);
+
+  box-shadow:
+    var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000),
+    var(--tw-shadow);
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.pr-1 {
+  padding-right: 0.25rem;
+}
+
+.col-span-4 {
+  grid-column: span 4 / span 4;
+}
+
+.btn-zinc {
+  display: flex;
+  height: 4rem;
+  align-items: center;
+  justify-content: flex-end;
+
+  --tw-bg-opacity: 1;
+
+  background-color: rgb(82 82 91 / var(--tw-bg-opacity));
+  font-weight: 500;
+
+  --tw-text-opacity: 1;
+
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -2px rgb(0 0 0 / 10%);
+  --tw-shadow-colored:
+    0 4px 6px -1px var(--tw-shadow-color),
+    0 2px 4px -2px var(--tw-shadow-color);
+
+  box-shadow:
+    var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000),
+    var(--tw-shadow);
+}
+
+.btn-grey {
+  display: flex;
+  height: 4rem;
+  width: 8rem;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-width: 1px;
+
+  --tw-border-opacity: 1;
+
+  border-color: rgb(148 163 184 / var(--tw-border-opacity));
+
+  --tw-bg-opacity: 1;
+
+  background-color: rgb(168 162 158 / var(--tw-bg-opacity));
+  font-weight: 500;
+
+  --tw-text-opacity: 1;
+
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -2px rgb(0 0 0 / 10%);
+  --tw-shadow-colored:
+    0 4px 6px -1px var(--tw-shadow-color),
+    0 2px 4px -2px var(--tw-shadow-color);
+
+  box-shadow:
+    var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000),
+    var(--tw-shadow);
 }
 
-.App-link {
-  color: #61dafb;
+.btn-orange {
+  display: flex;
+  height: 4rem;
+  width: 8rem;
+  align-items: center;
+  justify-content: center;
+  border-width: 1px;
+
+  --tw-border-opacity: 1;
+
+  border-color: rgb(148 163 184 / var(--tw-border-opacity));
+
+  --tw-bg-opacity: 1;
+
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity));
+  font-weight: 500;
+
+  --tw-text-opacity: 1;
+
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -2px rgb(0 0 0 / 10%);
+  --tw-shadow-colored:
+    0 4px 6px -1px var(--tw-shadow-color),
+    0 2px 4px -2px var(--tw-shadow-color);
+
+  box-shadow:
+    var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000),
+    var(--tw-shadow);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.quote1 {
+  width: 80%;
+  margin-top: 20%;
+  margin-bottom: auto;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.calculator {
+  border-radius: 50px;
+}
+
+.cal-container {
+  background: midnightblue;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+  border: 1px solid #000;
+  width: 1050px;
 }
