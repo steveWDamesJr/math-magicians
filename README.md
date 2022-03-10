@@ -10,11 +10,11 @@ REACT README
 - Read a random math-related quote.
 
 Additional description about the project and its features.
-![screenshot](./images/img-calc.png)
+![screenshot](./Images/img-calc.png)
 
-![screenshot](./images/img-home.png)
+![screenshot](./Images/img-home.png)
 
-![screenshot](./images/img-quotes.png)
+![screenshot](./Images/img-quotes.png)
 
 
 ## Live Demo
