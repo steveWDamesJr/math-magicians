@@ -9,6 +9,19 @@ REACT README
 - Make simple calculations.
 - Read a random math-related quote.
 
+Additional description about the project and its features.
+![screenshot](./images/img-calc.png)
+
+![screenshot](./images/img-home.png)
+
+![screenshot](./images/img-quotes.png)
+
+
+## Live Demo
+
+[Netlify Live Demo Link](https://62293b44e42c571c58718d75--optimistic-tesla-fb1aae.netlify.app/quote)
+
+[Netlify Live Demo Link](https://62293b44e42c571c58718d75--optimistic-tesla-fb1aae.netlify.app/quote)
 
 
 ## Built With
