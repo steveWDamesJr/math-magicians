@@ -51,7 +51,7 @@ class Calculator extends React.Component {
             </div>
             <div className="flex justify-between">
               <button type="button" className="w-64 btn-grey" onClick={(e) => { this.handleClick(e); }}>0</button>
-              <button type="button" className="w-32 btn-grey" onClick={(e) => { this.handleClick(e); }}>•</button>
+              <button type="button" className="w-32 btn-grey" onClick={(e) => { this.handleClick(e); }}>.</button>
               <button type="button" className="w-32 btn-grey" onClick={(e) => { this.handleClick(e); }}>=</button>
             </div>
           </div>
