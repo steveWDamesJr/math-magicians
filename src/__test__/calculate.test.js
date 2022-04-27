@@ -1,4 +1,4 @@
-import calculate from "../logic/calculate";
+import calculate from '../logic/calculate';
 
 describe('Test calculate function', () => {
   test('Adding two numbers', () => {
@@ -14,9 +14,9 @@ describe('Test calculate function', () => {
       operation: '+',
     };
 
-    const result = calculate(obj, '+')
-    expect(result).toEqual(output)
-  })
+    const result = calculate(obj, '+');
+    expect(result).toEqual(output);
+  });
 
   test('Subtract two numbers', () => {
     const obj = {
@@ -31,9 +31,9 @@ describe('Test calculate function', () => {
       operation: '-',
     };
 
-    const result = calculate(obj, '-')
-    expect(result).toEqual(output)
-  })
+    const result = calculate(obj, '-');
+    expect(result).toEqual(output);
+  });
 
   test('Multiply two numbers', () => {
     const obj = {
@@ -48,9 +48,9 @@ describe('Test calculate function', () => {
       operation: 'x',
     };
 
-    const result = calculate(obj, 'x')
-    expect(result).toEqual(output)
-  })
+    const result = calculate(obj, 'x');
+    expect(result).toEqual(output);
+  });
 
   test('Divide two numbers', () => {
     const obj = {
@@ -65,9 +65,9 @@ describe('Test calculate function', () => {
       operation: '÷',
     };
 
-    const result = calculate(obj, '÷')
-    expect(result).toEqual(output)
-  })
+    const result = calculate(obj, '÷');
+    expect(result).toEqual(output);
+  });
 
   test('Divide two numbers', () => {
     const obj = {
@@ -82,9 +82,9 @@ describe('Test calculate function', () => {
       operation: null,
     };
 
-    const result = calculate(obj, 'AC')
-    expect(result).toEqual(output)
-  })
+    const result = calculate(obj, 'AC');
+    expect(result).toEqual(output);
+  });
 
   test('Modulo operation', () => {
     const obj = {
@@ -99,9 +99,9 @@ describe('Test calculate function', () => {
       operation: '%',
     };
 
-    const result = calculate(obj, '%')
-    expect(result).toEqual(output)
-  })
+    const result = calculate(obj, '%');
+    expect(result).toEqual(output);
+  });
 
   test('+/- button', () => {
     const obj = {
@@ -116,7 +116,7 @@ describe('Test calculate function', () => {
       operation: '+',
     };
 
-    const result = calculate(obj, '+/-')
-    expect(result).toEqual(output)
-  })
-})
+    const result = calculate(obj, '+/-');
+    expect(result).toEqual(output);
+  });
+});
