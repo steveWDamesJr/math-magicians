@@ -51,6 +51,10 @@ Use `npx eslint . --fix` to fix multiple errors.
 - Click equals ( = ) symbol to see result of your calculations
 
 
+### Testing
+- open `src/__test__` folder
+- Enter any test file
+- Run `npm test` to test all files
 ## Authors
 
 👤 **STEVE W DAMES JR**
