@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import Calculator from '../components/calculator';
+import Calculator from '../components/Calculator';
 import '@testing-library/jest-dom';
 
 it('renders correctly', () => {
