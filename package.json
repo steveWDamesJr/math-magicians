@@ -1,33 +1,26 @@
 {
-  "name": "math-magicians",
+  "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@headlessui/react": "^1.5.0",
-    "@heroicons/react": "^1.0.5",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
     "big.js": "^6.1.1",
-    "eslint-config-react-app": "^7.0.0",
-    "fsevents": "^1.2.11",
-    "pretty-format": "^27.5.1",
+    "canvas": "^2.9.0",
+    "history": "^5.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.2.2",
-    "react-scripts": "^2.1.3",
+    "react-scripts": "5.0.0",
+    "react-test-renderer": "^17.0.2",
     "web-vitals": "^2.1.4"
-  },
-  "resolutions": {
-    "eslint-plugin-react": "7.28.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --coverage --verbose --watch",
-    "eject": "react-scripts eject",
-    "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "lint": "eslint \"src/**/*.{js,jsx}\""
+    "test": "react-scripts test --coverage",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -48,17 +41,20 @@
     ]
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.9.0",
-    "@typescript-eslint/parser": "^5.9.0",
-    "eslint": "^8.6.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-react": "^1.1.7",
+    "@babel/core": "^7.17.5",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/plugin-syntax-jsx": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
-    "postcss-normalize": "^10.0.1",
-    "prettier": "2.5.1",
-    "stylelint": "^14.5.3",
-    "stylelint-config-recommended": "^7.0.0",
-    "stylelint-csstree-validator": "^2.0.0",
-    "stylelint-react-native": "^2.4.0"
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "jest-watch-typeahead": "^0.6.5",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
   }
 }
