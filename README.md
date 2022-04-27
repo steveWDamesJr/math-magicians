@@ -59,6 +59,11 @@ Use `npx eslint . --fix` to fix multiple errors.
 - Twitter: [@twitterhandle](https://twitter.com/Steve88312331)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/steve-w-dames-jr/)
 
+👤 **SODIQ ADERIBIGBE**
+
+- GitHub: [@githubhandle](https://github.com/deyemiobaa)
+- Twitter: [@twitterhandle](https://twitter.com/deyemiobaa)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sodiqa/)
 
 ## 🤝 Contributing
 
