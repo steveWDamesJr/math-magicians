@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<main
+  className=" w-screen h-screen flex justify-between"
+>
+  <h2>
+    Let's do some math!
+  </h2>
+  <div
+    className="cal-container flex"
+  >
+    <div
+      className="calculator"
+    >
+      <div
+        className="w-96 h-auto bg-white rounded-2xl shadow-xl"
+      >
+        <div
+          className="w-auto h-auto"
+        >
+          <div
+            className="pr-1 btn-zinc col-span-4 text-right cal-screen"
+            data-testid="cal-screen-out"
+          >
+            0  
+          </div>
+          <div
+            className="flex justify-between"
+          >
+            <button
+              className="btn-grey"
+              onClick={[Function]}
+              type="button"
+            >
+              AC
+            </button>
+            <button
+              className="btn-grey"
+              onClick={[Function]}
+              type="button"
+            >
+              +/-
+            </button>
+            <button
+              className="btn-grey"
+              onClick={[Function]}
+              type="button"
+            >
+              %
+            </button>
+            <button
+              className="btn-orange"
+              onClick={[Function]}
+              type="button"
+            >
+              ÷
+            </button>
+          </div>
+          <div
+            className="flex justify-between"
+          >
+            <button
+              className="btn-grey"
+              onClick={[Function]}
+              type="button"
+            >
+              7
+            </button>
+            <button
+              className="btn-grey"
+              onClick={[Function]}
+              type="button"
+            >
+              8
+            </button>
+            <button
+              className="btn-grey"
+              onClick={[Function]}
+              type="button"
+            >
+              9
+            </button>
+            <button
+              className="btn-orange"
+              onClick={[Function]}
+              type="button"
+            >
+              x
+            </button>
+          </div>
+          <div
+            className="flex justify-between"
+          >
+            <button
+              className="btn-grey"
+              onClick={[Function]}
+              type="button"
+            >
+              4
+            </button>
+            <button
+              className="btn-grey"
+              onClick={[Function]}
+              type="button"
+            >
+              5
+            </button>
+            <button
+              className="btn-grey"
+              onClick={[Function]}
+              type="button"
+            >
+              6
+            </button>
+            <button
+              className="btn-orange"
+              onClick={[Function]}
+              type="button"
+            >
+              -
+            </button>
+          </div>
+          <div
+            className="flex justify-between"
+          >
+            <button
+              className="btn-grey"
+              onClick={[Function]}
+              type="button"
+            >
+              1
+            </button>
+            <button
+              className="btn-grey"
+              onClick={[Function]}
+              type="button"
+            >
+              2
+            </button>
+            <button
+              className="btn-grey"
+              onClick={[Function]}
+              type="button"
+            >
+              3
+            </button>
+            <button
+              className="btn-orange"
+              onClick={[Function]}
+              type="button"
+            >
+              +
+            </button>
+          </div>
+          <div
+            className="flex justify-between last"
+          >
+            <button
+              className="w-64 zero"
+              onClick={[Function]}
+              type="button"
+            >
+              0
+            </button>
+            <button
+              className="w-32 btn-grey point"
+              onClick={[Function]}
+              type="button"
+            >
+              .
+            </button>
+            <button
+              className="w-32 btn-grey equals"
+              onClick={[Function]}
+              type="button"
+            >
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+`;
