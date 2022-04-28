@@ -1,5 +1,3 @@
-REACT README
-
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # MATH MAGICIANS
@@ -9,6 +7,12 @@ REACT README
 - Make simple calculations.
 - Read a random math-related quote.
 
+Additional description about the project and its features.
+![screenshot](./Images/img-calc.png)
+
+![screenshot](./Images/img-home.png)
+
+![screenshot](./Images/img-quotes.png)
 
 
 ## Built With
@@ -20,19 +24,26 @@ REACT README
 
 ## Getting Started
 
-
 To get a local copy up and running follow these simple example steps.
 
+
 ### Prerequisites
+
 - Text Editor | Git and Github set up
 
+
 ### Setup
+
 - Clone repository and open with text editor
+  
 
 ### Dependencies
+
 - Run npm install - to load necessary files from package.json
+  
 
 ### Linter Setup
+
 - Apply Linter checks with the following instructions
 
 * Stylelint: Install stylelint for clean Styles and elimination of related errors.
@@ -46,15 +57,19 @@ Use `npx eslint . --fix` to fix multiple errors.
 
 
 ### Usage
+
 - View APP 
 - Click on numbers and operations symbols to perform calculations
 - Click equals ( = ) symbol to see result of your calculations
 
 
 ### Testing
+
 - open `src/__test__` folder
 - Enter any test file
 - Run `npm test` to test all files
+
+
 ## Authors
 
 👤 **STEVE W DAMES JR**
@@ -69,15 +84,18 @@ Use `npx eslint . --fix` to fix multiple errors.
 - Twitter: [@twitterhandle](https://twitter.com/deyemiobaa)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/sodiqa/)
 
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
 
 ## Acknowledgments
 
@@ -85,7 +103,7 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
