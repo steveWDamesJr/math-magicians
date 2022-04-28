@@ -7,7 +7,7 @@
 - Make simple calculations.
 - Read a random math-related quote.
 
-Additional description about the project and its features.
+Additional description about the project and its features:
 
 ![screenshot](./src/Images/img-calc.png)
 
