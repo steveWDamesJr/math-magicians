@@ -8,11 +8,11 @@
 - Read a random math-related quote.
 
 Additional description about the project and its features.
-![screenshot](./Images/img-calc.png)
+![screenshot](./src/Images/img-calc.png)
 
-![screenshot](./Images/img-home.png)
+![screenshot](./src/Images/img-home.png)
 
-![screenshot](./Images/img-quotes.png)
+![screenshot](./src/Images/img-quotes.png)
 
 
 ## Built With
