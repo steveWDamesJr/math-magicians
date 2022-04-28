@@ -5,7 +5,7 @@ function Calculator() {
   const [state, setState] = useState({ total: '0', next: null, operation: null });
 
   const handleClick = (e) => {
-    const buttonContents = e.target.innerText;
+    const buttonContents = e.target.textContent;
     setState((prevState) => ({
       ...prevState,
       total: buttonContents,
@@ -14,8 +14,7 @@ function Calculator() {
     setState(result);
   };
 
-  const { total } = state;
-  const { next } = state;
+  const { total, next, operation } = state;
   const onClick = (e) => { handleClick(e); };
 
   return (
@@ -25,7 +24,7 @@ function Calculator() {
         <div className="calculator">
           <div className="w-96 h-auto bg-white rounded-2xl shadow-xl">
             <div className="w-auto h-auto">
-              <div className="pr-1 btn-zinc col-span-4 text-right cal-screen">{ next || total }</div>
+              <div className="pr-1 btn-zinc col-span-4 text-right cal-screen" data-testid="cal-screen-out">{total || next ? `${total || ''} ${operation || ''} ${next || ''}` : 0}</div>
               <div className="flex justify-between">
                 <button type="button" className="btn-grey" key="first" onClick={onClick}>AC</button>
                 <button type="button" className="btn-grey" key="second" onClick={onClick}>+/-</button>
@@ -52,7 +51,7 @@ function Calculator() {
               </div>
               <div className="flex justify-between last">
                 <button type="button" className="w-64 zero" key="seventeenth" onClick={onClick}>0</button>
-                <button type="button" className="w-32 btn-grey point" key="eighteenth" onClick={onClick}>•</button>
+                <button type="button" className="w-32 btn-grey point" key="eighteenth" onClick={onClick}>.</button>
                 <button type="button" className="w-32 btn-grey equals" key="nineteenth" onClick={onClick}>=</button>
               </div>
             </div>
